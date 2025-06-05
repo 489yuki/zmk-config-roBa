@@ -107,10 +107,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&trans          &trans  &trans  &kp LC(LS(N5))    &kp LS(LC(NUMBER_4))                                    &trans  &kp K_COPY      &kp UP_ARROW    &kp K_PASTE      &trans
+&kp A           &trans  &trans  &trans            &trans                &trans      &kp C_BRIGHTNESS_INC  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT  &kp X   &kp C   &kp V             &trans                &trans      &kp C_BRIGHTNESS_DEC  &trans  &trans          &trans          &trans           &trans
+&trans          &trans  &trans  &kp LEFT_COMMAND  &trans                &trans      &trans                &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -118,10 +118,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&to_layer_0 Q    &to_layer_0 W  &to_layer_0 E  &to_layer_0 R             &to_layer_0 T                           &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
+&to_layer_0 A    &to_layer_0 S  &to_layer_0 D  &to_layer_0 F             &to_layer_0 G  &trans      &kp K_COPY   &to_layer_0 J  &mkp MB1       &mkp MB3           &mkp MB2            &to_layer_0 SEMICOLON
+&to_layer_0 Z    &to_layer_0 X  &to_layer_0 C  &to_layer_0 V             &to_layer_0 B  &trans      &kp K_PASTE  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 SLASH
+&to_layer_0 TAB  &trans         &trans         &to_layer_0 LEFT_COMMAND  &trans         &trans      &trans       &trans                                                               &trans
             >;
         };
 
