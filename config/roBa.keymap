@@ -79,7 +79,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W             &kp E         &kp R             &kp T                                                                 &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S             &kp D         &kp F             &kp G        &kp LS(LG(S))                             &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp A             &kp S             &kp D         &kp F             &kp G        &trans                                    &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X             &kp C         &kp V             &kp B        &kp ESC                                   &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
 &kp TAB           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 SPACE  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT      &kp DELETE     &lt 3 ENTER                             &kp DEL
             >;
@@ -118,10 +118,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q    &to_layer_0 W  &to_layer_0 E  &to_layer_0 R             &to_layer_0 T                           &to_layer_0 Y  &to_layer_0 U      &to_layer_0 I      &to_layer_0 O      &lt 5 P
-&to_layer_0 A    &to_layer_0 S  &to_layer_0 D  &to_layer_0 F             &to_layer_0 G  &trans      &kp K_COPY   &to_layer_0 J  &mkp_exit_AML MB1  &mkp_exit_AML MB3  &mkp_exit_AML MB2  &to_layer_0 SEMICOLON
-&to_layer_0 Z    &to_layer_0 X  &to_layer_0 C  &to_layer_0 V             &to_layer_0 B  &trans      &kp K_PASTE  &to_layer_0 N  &mkp_exit_AML MB4  &to_layer_0 COMMA  &mkp_exit_AML MB5  &to_layer_0 SLASH
-&to_layer_0 TAB  &trans         &trans         &to_layer_0 LEFT_COMMAND  &to 2          &trans      &trans       &trans                                                                  &trans
+&to_layer_0 Q    &to_layer_0 W  &to_layer_0 E  &to_layer_0 R     &to_layer_0 T                                 &to_layer_0 Y      &to_layer_0 U      &to_layer_0 I      &to_layer_0 O      &lt 5 P
+&to_layer_0 A    &to_layer_0 S  &to_layer_0 D  &to_layer_0 F     &to_layer_0 G  &trans      &trans             &to_layer_0 J      &mkp_exit_AML MB1  &mkp_exit_AML MB3  &mkp_exit_AML MB2  &to_layer_0 SEMICOLON
+&to_layer_0 Z    &to_layer_0 X  &to_layer_0 C  &to_layer_0 V     &to_layer_0 B  &trans      &trans             &to_layer_0 N      &mkp_exit_AML MB4  &to_layer_0 COMMA  &mkp_exit_AML MB5  &to_layer_0 SLASH
+&to_layer_0 TAB  &trans         &trans         &kp LEFT_COMMAND  &to 2          &trans      &to_layer_0 LG(V)  &to_layer_0 LG(C)                                                           &trans
             >;
         };
 
