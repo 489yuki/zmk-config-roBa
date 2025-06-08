@@ -17,24 +17,24 @@
             key-positions = <11 12>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+        hyphen {
+            bindings = <&kp MINUS>;
             key-positions = <20 21>;
         };
 
-        eq {
+        equal {
             bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <32 33>;
+        };
+
+        rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <19 20>;
+        };
+
+        copy_page_url {
+            bindings = <&kp LG(RS(C))>;
+            key-positions = <21 20 19>;
         };
     };
 
@@ -118,10 +118,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q    &to_layer_0 W  &to_layer_0 E  &to_layer_0 R     &to_layer_0 T                         &to_layer_0 Y  &to_layer_0 U      &to_layer_0 I      &to_layer_0 O      &lt 5 P
-&to_layer_0 A    &to_layer_0 S  &to_layer_0 D  &to_layer_0 F     &to_layer_0 G     &trans      &trans  &to_layer_0 J  &mkp_exit_AML MB1  &mkp_exit_AML MB3  &mkp_exit_AML MB2  &to_layer_0 SEMICOLON
-&to_layer_0 Z    &to_layer_0 X  &to_layer_0 C  &to_layer_0 V     &to_layer_0 B     &trans      &trans  &to_layer_0 N  &mkp_exit_AML MB4  &to_layer_0 COMMA  &mkp_exit_AML MB5  &to_layer_0 SLASH
-&to_layer_0 TAB  &trans         &trans         &kp LEFT_COMMAND  &lt 2 LEFT_SHIFT  &trans      &trans  &trans                                                                  &trans
+&to_layer_0 Q    &to_layer_0 W  &to_layer_0 E  &to_layer_0 R     &to_layer_0 T                                   &to_layer_0 Y  &to_layer_0 U      &to_layer_0 I      &to_layer_0 O       &lt 5 P
+&to_layer_0 A    &to_layer_0 S  &to_layer_0 D  &to_layer_0 F     &to_layer_0 G     &trans                &trans  &to_layer_0 J  &mkp_exit_AML MB1  &to_layer_0 K      &to_layer_0 L       &to_layer_0 SEMICOLON
+&to_layer_0 Z    &to_layer_0 X  &to_layer_0 C  &to_layer_0 V     &to_layer_0 B     &trans                &trans  &to_layer_0 N  &to_layer_0 M      &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 SLASH
+&to_layer_0 TAB  &trans         &trans         &kp LEFT_COMMAND  &lt 2 LEFT_SHIFT  &lt 5 LEFT_SHIFT      &trans  &trans                                                                   &trans
             >;
         };
 
