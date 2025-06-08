@@ -36,6 +36,16 @@
             bindings = <&kp LG(RS(C))>;
             key-positions = <21 20 19>;
         };
+
+        kana {
+            bindings = <&kp LANG1>;
+            key-positions = <25 24>;
+        };
+
+        ei {
+            bindings = <&kp LANG2>;
+            key-positions = <24 23>;
+        };
     };
 
     macros {
