@@ -46,6 +46,11 @@
             bindings = <&kp LANG2>;
             key-positions = <24 23>;
         };
+
+        lclick {
+            bindings = <&mkp_exit_AML LCLK>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
