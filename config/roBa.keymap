@@ -113,10 +113,10 @@
 
         NUM {
             bindings = <
-&kp EXCLAMATION  &kp ASTERISK  &kp PERCENT  &kp GRAVE      &kp SQT                                              &kp LEFT_BRACKET   &kp N7        &kp N8        &kp N9        &kp N0
-&kp AT_SIGN      &kp HASH      &kp DOLLAR   &kp AMPERSAND  &kp NON_US_BACKSLASH  &trans      &kp C_VOLUME_UP    &kp RIGHT_BRACKET  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&kp LEFT_SHIFT   &trans        &trans       &kp LANG2      &kp LANG1             &trans      &kp C_VOLUME_DOWN  &trans             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-&trans           &trans        &trans       &trans         &trans                &trans      &trans             &trans                                                       &kp K_MUTE
+&kp EXCLAMATION  &kp ASTERISK  &kp PERCENT  &kp GRAVE      &kp SQT                                       &kp LEFT_BRACKET   &kp N7        &kp N8        &kp N9        &kp N0
+&kp AT_SIGN      &kp HASH      &kp DOLLAR   &kp AMPERSAND  &kp BACKSLASH  &trans      &kp C_VOLUME_UP    &kp RIGHT_BRACKET  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
+&kp LEFT_SHIFT   &trans        &trans       &kp LANG2      &kp LANG1      &trans      &kp C_VOLUME_DOWN  &trans             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&trans           &trans        &trans       &trans         &trans         &trans      &trans             &trans                                                       &kp K_MUTE
             >;
         };
 
@@ -124,7 +124,7 @@
             bindings = <
 &trans          &trans  &trans  &kp LS(LG(N5))    &kp LS(LG(N4))                                              &trans  &kp LG(C)       &kp UP_ARROW    &kp LG(P)        &trans
 &kp A           &trans  &trans  &trans            &trans          &trans                &kp C_BRIGHTNESS_INC  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp X   &kp C   &kp V             &trans          &trans                &kp C_BRIGHTNESS_DEC  &trans  &trans          &trans          &trans           &trans
+&kp LEFT_SHIFT  &kp X   &kp C   &kp V             &trans          &trans                &kp C_BRIGHTNESS_DEC  &trans  &kp RIGHT_ALT   &kp TAB         &kp RIGHT_SHIFT  &trans
 &trans          &trans  &trans  &kp LEFT_COMMAND  &trans          &lt 6 LEFT_SHIFT      &trans                &trans                                                   &trans
             >;
 
